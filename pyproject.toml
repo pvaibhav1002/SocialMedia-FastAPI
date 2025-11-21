@@ -1,0 +1,15 @@
+[project]
+name = "fastapi-prj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.17.2",
+    "fastapi[standard]>=0.121.2",
+    "psycopg2>=2.9.11",
+    "pwdlib[bcrypt]>=0.3.0",
+    "pydantic-settings>=2.12.0",
+    "pyjwt[crypto]>=2.10.1",
+    "sqlmodel>=0.0.27",
+]
