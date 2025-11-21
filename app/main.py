@@ -7,8 +7,10 @@ from .database import engine
 from app.routers import posts, users, auth,votes
 from .config import settings
 
+
 models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
+
 
 origins = [
     "http://localhost",
